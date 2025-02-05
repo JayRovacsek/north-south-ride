@@ -64,7 +64,17 @@
                 enable = true;
                 settings = {
                   binary = false;
-                  ignored-words = [ ];
+                  ignored-words = [
+                    "authorization"
+                    "authorized"
+                    "authorizes"
+                    "authorizing"
+                    "characterized"
+                    "defenses"
+                    "organization"
+                    "organizations"
+                    "recognized"
+                  ];
                   locale = "en-au";
                 };
               };
