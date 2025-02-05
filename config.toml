@@ -1,0 +1,11 @@
+base_url = "https://example.com"
+build_search_index = true
+compile_sass = false
+generate_feeds = true
+minify_html = true
+theme = "no-style-please"
+
+[markdown]
+highlight_code = false
+
+[extra]
