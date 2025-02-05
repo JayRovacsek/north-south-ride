@@ -1,4 +1,4 @@
-base_url = "https://example.com"
+base_url = "https://jayrovacsek.github.io/north-south-ride"
 build_search_index = true
 compile_sass = false
 generate_feeds = true
