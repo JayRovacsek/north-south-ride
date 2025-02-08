@@ -62,49 +62,51 @@
 
         apps.generate-pages = {
           type = "program";
-          program = pkgs.writers.writeBash "generate-pages" (
-            lib.concatLines (
-              [
-                # Create a json containing all routes
-                ''
-                  ${pkgs.coreutils}/bin/rm static/all.geojson static/all.json
-                  ${pkgs.jq}/bin/jq '{"type": "FeatureCollection", "features": [.[] | .features[]]}' --slurp static/*.json > static/all.geojson
-                  ${pkgs.coreutils}/bin/mv static/all.geojson static/all.json
-                ''
-                # Remove index file, and regenerate
-                ''
-                  ${pkgs.coreutils}/bin/rm content/_index.md
-                  echo '---' > content/_index.md
-                  echo '---' >> content/_index.md
-                  echo ' - [all](./all)' >> content/_index.md
-                ''
-                # Generate an all map
-                ''
-                  ${generate-map-page "all" "all.json"}
-                ''
-              ]
-              ++ (builtins.map (
-                x:
-                let
-                  prefix = builtins.replaceStrings [ ".json" ] [ "" ] x;
-                in
-                # Add entry to index page
-                # Regenerate own markdown file
-                ''
-                  echo ' - [${prefix}](./${prefix})' >> content/_index.md
+          program = builtins.toString (
+            pkgs.writers.writeBash "generate-pages" (
+              lib.concatLines (
+                [
+                  # Create a json containing all routes
+                  ''
+                    ${pkgs.coreutils}/bin/rm static/all.geojson static/all.json
+                    ${pkgs.jq}/bin/jq '{"type": "FeatureCollection", "features": [.[] | .features[]]}' --slurp static/*.json > static/all.geojson
+                    ${pkgs.coreutils}/bin/mv static/all.geojson static/all.json
+                  ''
+                  # Remove index file, and regenerate
+                  ''
+                    ${pkgs.coreutils}/bin/rm content/_index.md
+                    echo '---' > content/_index.md
+                    echo '---' >> content/_index.md
+                    echo ' - [all](./all)' >> content/_index.md
+                  ''
+                  # Generate an all map
+                  ''
+                    ${generate-map-page "all" "all.json"}
+                  ''
+                ]
+                ++ (builtins.map (
+                  x:
+                  let
+                    prefix = builtins.replaceStrings [ ".json" ] [ "" ] x;
+                  in
+                  # Add entry to index page
+                  # Regenerate own markdown file
+                  ''
+                    echo ' - [${prefix}](./${prefix})' >> content/_index.md
 
-                  ${pkgs.coreutils}/bin/rm content/${prefix}.md
+                    ${pkgs.coreutils}/bin/rm content/${prefix}.md
 
-                  ${generate-map-page prefix x}
-                ''
-              ) geojson)
-              ++ [
-                # Lint all files in static folder & content folder
-                ''
-                  ${pkgs.nodePackages.prettier}/bin/prettier -w ./static
-                  ${pkgs.nodePackages.prettier}/bin/prettier -w ./content
-                ''
-              ]
+                    ${generate-map-page prefix x}
+                  ''
+                ) geojson)
+                ++ [
+                  # Lint all files in static folder & content folder
+                  ''
+                    ${pkgs.nodePackages.prettier}/bin/prettier -w ./static
+                    ${pkgs.nodePackages.prettier}/bin/prettier -w ./content
+                  ''
+                ]
+              )
             )
           );
         };
