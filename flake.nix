@@ -54,7 +54,7 @@
         generate-map-page = name: file: ''
           echo '---' > content/${name}.md
           echo '---' >> content/${name}.md
-          echo '{{ leaflet_world(id="${name}", height="600", width="1000", geojson="${file}") }}' >> content/${name}.md
+          echo '{{ leaflet_world(id="${name}", height="600", width="1000", geojson="../${file}") }}' >> content/${name}.md
         '';
       in
       {
