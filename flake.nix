@@ -142,11 +142,13 @@
                     "authorized"
                     "authorizes"
                     "authorizing"
+                    "Cann"
                     "characterized"
                     "defenses"
                     "organization"
                     "organizations"
                     "recognized"
+                    "Wron"
                   ];
                   locale = "en-au";
                 };
