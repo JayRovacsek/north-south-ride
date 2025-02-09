@@ -51,15 +51,26 @@
           )
         );
 
-        generate-map-page = name: file: ''
-          echo '---' > content/${name}.md
-          echo '---' >> content/${name}.md
-          echo '{{ leaflet_world(id="${name}", height="600", width="1000", geojson="../${file}") }}' >> content/${name}.md
-        '';
+        generate-map-page =
+          name: file:
+          let
+            file-contents = builtins.fromJSON (builtins.readFile ./static/${file});
+            metadata = lib.findFirst (x: x.geometry == null) {
+              properties = { };
+            } file-contents.features;
+
+            inherit (metadata) properties;
+
+            header = pkgs.writers.writeYAML "header.yaml" properties;
+          in
+          ''
+            echo '---' > content/${name}.md
+            ${pkgs.coreutils}/bin/cat ${header} >> content/${name}.md
+            echo '---' >> content/${name}.md
+            echo '{{ leaflet_world(id="${name}", height="75%", width="100%", geojson="../${file}") }}' >> content/${name}.md
+          '';
       in
       {
-        inherit geojson;
-
         apps.generate-pages = {
           type = "program";
           program = builtins.toString (
@@ -68,7 +79,7 @@
                 [
                   # Create a json containing all routes
                   ''
-                    ${pkgs.coreutils}/bin/rm static/all.geojson static/all.json
+                    ${pkgs.coreutils}/bin/rm static/all.json
                     ${pkgs.jq}/bin/jq '{"type": "FeatureCollection", "features": [.[] | .features[]]}' --slurp static/*.json > static/all.geojson
                     ${pkgs.coreutils}/bin/mv static/all.geojson static/all.json
                   ''
@@ -99,13 +110,6 @@
                     ${generate-map-page prefix x}
                   ''
                 ) geojson)
-                ++ [
-                  # Lint all files in static folder & content folder
-                  ''
-                    ${pkgs.nodePackages.prettier}/bin/prettier -w ./static
-                    ${pkgs.nodePackages.prettier}/bin/prettier -w ./content
-                  ''
-                ]
               )
             )
           );

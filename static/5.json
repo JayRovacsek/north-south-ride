@@ -3,12 +3,28 @@
   "name": "Ride 5",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 5", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 5",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 5",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1495,7 +1511,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Eumundi QLD", "Description": "" },
+      "properties": {
+        "Name": "Eumundi QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.9503914, -26.4749672, 0.0]
@@ -1503,7 +1522,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Kenilworth QLD", "Description": "" },
+      "properties": {
+        "Name": "Kenilworth QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.7275726, -26.5949485, 0.0]
@@ -1511,7 +1533,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Maleny QLD", "Description": "" },
+      "properties": {
+        "Name": "Maleny QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.848503, -26.758103, 0.0]

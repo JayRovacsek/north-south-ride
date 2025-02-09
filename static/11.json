@@ -3,12 +3,28 @@
   "name": "Ride 11",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 11", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 11",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 11",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1715,7 +1731,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Caboolture QLD", "Description": "" },
+      "properties": {
+        "Name": "Caboolture QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.95159, -27.084977, 0.0]
@@ -1723,7 +1742,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Landsborough QLD", "Description": "" },
+      "properties": {
+        "Name": "Landsborough QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.96081190000001, -26.825776, 0.0]
@@ -1731,7 +1753,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Montville QLD", "Description": "" },
+      "properties": {
+        "Name": "Montville QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.8953306, -26.6923585, 0.0]
@@ -1739,7 +1764,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Mapleton QLD", "Description": "" },
+      "properties": {
+        "Name": "Mapleton QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.8663046, -26.6239921, 0.0]
@@ -1747,7 +1775,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Yandina QLD", "Description": "" },
+      "properties": {
+        "Name": "Yandina QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.9563707, -26.5597337, 0.0]

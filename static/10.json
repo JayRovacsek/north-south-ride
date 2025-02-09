@@ -3,12 +3,28 @@
   "name": "Ride 10",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 10", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 10",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 10",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2010,7 +2026,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Southport QLD", "Description": "" },
+      "properties": {
+        "Name": "Southport QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [153.406299100000012, -27.9719448, 0.0]
@@ -2018,7 +2037,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Advancetown QLD", "Description": "" },
+      "properties": {
+        "Name": "Advancetown QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [153.272247099999987, -28.0376339, 0.0]
@@ -2026,7 +2048,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Murwillumbah NSW", "Description": "" },
+      "properties": {
+        "Name": "Murwillumbah NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [153.3829681, -28.3314682, 0.0]

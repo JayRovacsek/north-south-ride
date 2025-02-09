@@ -3,12 +3,28 @@
   "name": "Ride 4",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 4", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 4",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 4",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1086,7 +1102,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Caboolture QLD", "Description": "" },
+      "properties": {
+        "Name": "Caboolture QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.95159, -27.084977, 0.0]
@@ -1094,7 +1113,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "D'Aguilar QLD", "Description": "" },
+      "properties": {
+        "Name": "D'Aguilar QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.7979109, -26.9871603, 0.0]
@@ -1102,7 +1124,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Woodford QLD", "Description": "" },
+      "properties": {
+        "Name": "Woodford QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.777174, -26.952616, 0.0]
@@ -1110,7 +1135,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Beerwah QLD", "Description": "" },
+      "properties": {
+        "Name": "Beerwah QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.9577573, -26.8570086, 0.0]

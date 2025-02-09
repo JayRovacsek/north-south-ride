@@ -3,9 +3,16 @@ build_search_index = true
 compile_sass = false
 generate_feeds = true
 minify_html = true
-theme = "no-style-please"
+theme = "linkita"
+default_language = "en"
 
 [markdown]
 highlight_code = false
 
-[extra]
+[languages.en]
+title = "North/South Ride Plan"
+description = "TBA"
+build_search_index = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+taxonomies = [{ name = "tags", feed = true, paginate_by = 10 }]

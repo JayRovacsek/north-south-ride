@@ -3,12 +3,28 @@
   "name": "Ride 14",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 14", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 14",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 14",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3881,7 +3897,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Bourke NSW", "Description": "" },
+      "properties": {
+        "Name": "Bourke NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [145.937762, -30.0888561, 0.0]
@@ -3889,7 +3908,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Fords Bridge NSW", "Description": "" },
+      "properties": {
+        "Name": "Fords Bridge NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [145.4247784, -29.7525781, 0.0]
@@ -3897,7 +3919,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Hungerford QLD", "Description": "" },
+      "properties": {
+        "Name": "Hungerford QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [144.756135, -28.687382, 0.0]
@@ -3905,7 +3930,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Thargomindah QLD", "Description": "" },
+      "properties": {
+        "Name": "Thargomindah QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [143.8220062, -27.9969232, 0.0]
@@ -3913,7 +3941,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Cunnamulla QLD", "Description": "" },
+      "properties": {
+        "Name": "Cunnamulla QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [145.688226899999989, -28.0709976, 0.0]

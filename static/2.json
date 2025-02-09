@@ -3,12 +3,28 @@
   "name": "Ride 2",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 2", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 2",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 2",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -926,7 +942,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Rockhampton QLD", "Description": "" },
+      "properties": {
+        "Name": "Rockhampton QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [150.5088838, -23.3786091, 0.0]

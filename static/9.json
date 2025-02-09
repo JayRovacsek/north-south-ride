@@ -3,12 +3,28 @@
   "name": "Ride 9",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 9", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 9",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 9",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2027,7 +2043,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Woodenbong NSW", "Description": "" },
+      "properties": {
+        "Name": "Woodenbong NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.6125625, -28.3889243, 0.0]
