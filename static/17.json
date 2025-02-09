@@ -3,12 +3,28 @@
   "name": "Ride 17",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 17", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 17",
+        "description": "",
+        "taxonomies": {
+          "tags": ["nsw"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 17",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2627,7 +2643,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Monaro Highway, Cooma NSW", "Description": "" },
+      "properties": {
+        "Name": "Monaro Highway, Cooma NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [149.144470399999989, -36.2468522, 0.0]
@@ -2635,7 +2654,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Bemboka NSW", "Description": "" },
+      "properties": {
+        "Name": "Bemboka NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [149.5704336, -36.6274422, 0.0]

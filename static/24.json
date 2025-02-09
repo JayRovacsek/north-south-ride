@@ -3,12 +3,28 @@
   "name": "Ride 24",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 24", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 24",
+        "description": "",
+        "taxonomies": {
+          "tags": ["nsw"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 24",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2268,7 +2284,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Rathdowney QLD", "Description": "" },
+      "properties": {
+        "Name": "Rathdowney QLD",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.8644482, -28.2109202, 0.0]
@@ -2276,7 +2295,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Summerland Way, Kyogle NSW", "Description": "" },
+      "properties": {
+        "Name": "Summerland Way, Kyogle NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [153.0010397, -28.6383421, 0.0]

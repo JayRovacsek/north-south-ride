@@ -3,12 +3,28 @@
   "name": "Ride 18",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 18", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 18",
+        "description": "",
+        "taxonomies": {
+          "tags": ["nsw"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 18",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3585,7 +3601,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Raymond Terrace NSW", "Description": "" },
+      "properties": {
+        "Name": "Raymond Terrace NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [151.7481554, -32.7573129, 0.0]
@@ -3593,7 +3612,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Bucketts Way, Craven NSW", "Description": "" },
+      "properties": {
+        "Name": "Bucketts Way, Craven NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [151.9378115, -32.13453, 0.0]
@@ -3601,7 +3623,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Nabiac NSW", "Description": "" },
+      "properties": {
+        "Name": "Nabiac NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [152.377812299999988, -32.098635, 0.0]

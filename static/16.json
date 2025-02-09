@@ -3,12 +3,28 @@
   "name": "Ride 16",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 16", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 16",
+        "description": "",
+        "taxonomies": {
+          "tags": ["nsw"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 16",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2318,7 +2334,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Richmond NSW", "Description": "" },
+      "properties": {
+        "Name": "Richmond NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [150.751917, -33.5991978, 0.0]
@@ -2326,7 +2345,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Lithgow NSW", "Description": "" },
+      "properties": {
+        "Name": "Lithgow NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [150.136771900000014, -33.4811737, 0.0]

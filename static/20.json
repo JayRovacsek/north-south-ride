@@ -3,12 +3,28 @@
   "name": "Ride 20",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 20", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 20",
+        "description": "",
+        "taxonomies": {
+          "tags": ["nsw"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 20",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -3369,7 +3385,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Corryong VIC", "Description": "" },
+      "properties": {
+        "Name": "Corryong VIC",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [147.9022871, -36.1966848, 0.0]
@@ -3377,7 +3396,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Batlow NSW", "Description": "" },
+      "properties": {
+        "Name": "Batlow NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [148.144606399999986, -35.5221235, 0.0]
@@ -3385,7 +3407,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Tumut NSW", "Description": "" },
+      "properties": {
+        "Name": "Tumut NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [148.231167199999987, -35.3108593, 0.0]

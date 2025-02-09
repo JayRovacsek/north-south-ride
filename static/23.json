@@ -3,12 +3,28 @@
   "name": "Ride 23",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 23", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 23",
+        "description": "",
+        "taxonomies": {
+          "tags": ["nsw"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 23",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2539,7 +2555,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Khancoban NSW", "Description": "" },
+      "properties": {
+        "Name": "Khancoban NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [148.1248443, -36.2196746, 0.0]

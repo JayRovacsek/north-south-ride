@@ -3,12 +3,28 @@
   "name": "Ride 27",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 27", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 27",
+        "description": "",
+        "taxonomies": {
+          "tags": ["nsw"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 27",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1649,7 +1665,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Nemingha NSW", "Description": "" },
+      "properties": {
+        "Name": "Nemingha NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [150.9900967, -31.1237276, 0.0]
@@ -1668,7 +1687,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Wallabadah NSW", "Description": "" },
+      "properties": {
+        "Name": "Wallabadah NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [150.8301634, -31.5407035, 0.0]

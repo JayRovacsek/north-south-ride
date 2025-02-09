@@ -3,12 +3,28 @@
   "name": "Ride 29",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 29", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 29",
+        "description": "",
+        "taxonomies": {
+          "tags": ["nsw"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 29",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -2024,7 +2040,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Hornsby NSW", "Description": "" },
+      "properties": {
+        "Name": "Hornsby NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [151.098712, -33.7046346, 0.0]

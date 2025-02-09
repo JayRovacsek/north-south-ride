@@ -3,12 +3,28 @@
   "name": "Ride 15",
   "crs": {
     "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
   },
   "features": [
     {
       "type": "Feature",
-      "properties": { "Name": "Ride 15", "Description": "" },
+      "geometry": null,
+      "properties": {
+        "title": "Ride 15",
+        "description": "",
+        "taxonomies": {
+          "tags": ["nsw"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ride 15",
+        "Description": ""
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -10307,7 +10323,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Cooma NSW", "Description": "" },
+      "properties": {
+        "Name": "Cooma NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [149.1270415, -36.2345641, 0.0]
@@ -10337,7 +10356,10 @@
     },
     {
       "type": "Feature",
-      "properties": { "Name": "Khancoban NSW", "Description": "" },
+      "properties": {
+        "Name": "Khancoban NSW",
+        "Description": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [148.1248443, -36.2196746, 0.0]
