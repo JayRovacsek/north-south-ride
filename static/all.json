@@ -3,6 +3,17 @@
   "features": [
     {
       "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 10",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "Name": "Ride 10",
         "Description": ""
@@ -2041,6 +2052,17 @@
     },
     {
       "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 11",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "Name": "Ride 11",
         "Description": ""
@@ -3802,6 +3824,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [152.9563707, -26.5597337, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 12",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
       }
     },
     {
@@ -5728,6 +5761,17 @@
     },
     {
       "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 13",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "Name": "Ride 13",
         "Description": ""
@@ -6332,6 +6376,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [152.886648, -27.3736019, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 14",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
       }
     },
     {
@@ -31126,6 +31181,17 @@
     },
     {
       "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 1",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "Name": "Ride 1",
         "Description": ""
@@ -52645,6 +52711,17 @@
     },
     {
       "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 2",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "Name": "Ride 2",
         "Description": ""
@@ -59257,6 +59334,17 @@
     },
     {
       "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 3",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "Name": "Ride 3",
         "Description": ""
@@ -60706,6 +60794,17 @@
     },
     {
       "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 4",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "Name": "Ride 4",
         "Description": ""
@@ -61827,6 +61926,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [152.9577573, -26.8570086, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 5",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
       }
     },
     {
@@ -63350,6 +63460,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [152.848503, -26.758103, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 6",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
       }
     },
     {
@@ -64996,6 +65117,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [152.7979109, -26.9871603, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 7",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
       }
     },
     {
@@ -70863,6 +70995,17 @@
     },
     {
       "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 8",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "Name": "Ride 8",
         "Description": ""
@@ -73005,6 +73148,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [153.1360641, -28.2306964, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "title": "Ride 9",
+        "description": "",
+        "taxonomies": {
+          "tags": ["qld"]
+        }
       }
     },
     {
